@@ -50,3 +50,35 @@ Aeroplanes = ["Gulfstrem101", "Boeing777", "Gulfstream404", "NanoBanana"]
 fortuner = input("Enter any name of a fortuner car: ")
 Aeroplanes.insert(3, fortuner)
 print(Aeroplanes)
+
+
+
+#Append Method
+Fruits = []
+Fruit1 = input("Enter any fruit name: ")
+Fruit2 = input("Enter any fruit name: ")
+Fruit3 = input("Enter any fruit name: ")
+Fruit4 = input("Enter any fruit name: ")
+
+Fruits.append(Fruit1)
+Fruits.append(Fruit2)
+Fruits.append(Fruit3)
+Fruits.append(Fruit4)
+
+print(Fruits)
+
+
+
+#Extend Method
+
+Cricketers = ["Virat Kohli", "MSD", "ABD", "Rohit Sharma"]
+Footballer = ["Christiano Ronaldo", "Lionel Messo", "Haland", "Zidane"]
+Actors = ("Robert Downey Jr.", "Chris Evans", "Mark Raffalo", "Tom Cruise")
+
+Cricketers.extend(Footballer)
+print(Cricketers)
+
+
+# By using the Extend method we can add any of the type of iterables including dict, sets, tuple
+Cricketers.extend(Actors)
+print(Cricketers)
