@@ -86,7 +86,7 @@ print(Cricketers)
 
 
 
-Removing Methods
+# Removing Methods
 
 Planets = ["Earth", "Sun", "Pluto", "Jupiter"]
 Planets.remove("Earth")
