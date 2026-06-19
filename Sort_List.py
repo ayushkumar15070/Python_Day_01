@@ -38,3 +38,21 @@ print(list6)
 
 list7 = list6[:]
 print(list7)
+
+
+#Joining the list
+
+list8 = list6 + list7
+print(list8)
+
+
+list9 = [23, 34, 34]
+
+for i in list8:
+    list9.append(i)
+
+print(list9)
+
+
+list9.extend(list8)
+print(list9)
