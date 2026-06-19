@@ -27,3 +27,14 @@ print(list3)
 list4 = ["Apple", "Banana", "Cherry"]
 list4.reverse()
 print(list4)
+
+#Copying a list 
+
+list5 = list4.copy()
+print(list5)
+
+list6 = list(list5)
+print(list6)
+
+list7 = list6[:]
+print(list7)
