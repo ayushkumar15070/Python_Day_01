@@ -59,3 +59,18 @@ i = 0
 while i < len(fruits):
     print(fruits[i])
     i = i + 1
+
+
+#Join Tuple
+tuple1 = ("apple", "banana", "cherry")
+tuple2 = (1, 2, 3, 4, 5)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)
+
+
+#multiplying tuple
+tuple4 = tuple2 * 2
+print(tuple4)
+
+    
