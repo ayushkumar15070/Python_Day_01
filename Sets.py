@@ -35,3 +35,9 @@ print(set4)
 set5 = {"Pineapple", "Guava", "Grapes"}
 set4.update(set5)
 print(set4)
+
+# By using the update method we can add differetn data type items as well like dict, list, tuple
+set6 = {"CARS", "BMW", "Mercedes"}
+set7 = ["Suzuki", "Mahindra", "TATA"]
+set6.update(set7)
+print(set6)
