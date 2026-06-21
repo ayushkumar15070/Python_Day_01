@@ -41,3 +41,13 @@ set6 = {"CARS", "BMW", "Mercedes"}
 set7 = ["Suzuki", "Mahindra", "TATA"]
 set6.update(set7)
 print(set6)
+
+#Removing and item from the set
+
+set6.remove("CARS")
+print(set6)
+
+#Using discard method
+
+set6.discard("BMW")
+print(set6)
