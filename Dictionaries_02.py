@@ -57,3 +57,34 @@ for i in newdictionary.values():
 
 for i in newdictionary.keys():
     print(i)
+
+another = newdictionary.copy()
+print(another)
+
+anotherone = dict(newdictionary)
+print(anotherone)
+
+Cars = {
+   "Car1" : {
+       "Brand" : "BMW",
+       "Model" : "M8"
+   },
+   "Car2" : {
+       "Brand" : "Mercedes",
+       "Model" : "Benz"
+   },
+   "Car3" : {
+       "Brand" : "TATA",
+       "Model" : "Harrier"
+   }
+}
+
+
+print(Cars["Car1"]["Brand"])
+print(Cars["Car1"], Cars["Car2"], Cars["Car3"])
+
+for x, obj in Cars.items():
+  print(x)
+
+  for y in obj:
+    print(y + ':', obj[y])
