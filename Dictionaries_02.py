@@ -17,13 +17,13 @@ newcar = {
 
 }
 
-# name = input("Enter the car name: ") 
-# model = input("Enter the model name: ")
-# year = int(input("Enter the year of the car: "))
-# color = input("Enter the color of the car: ")
+name = input("Enter the car name: ") 
+model = input("Enter the model name: ")
+year = int(input("Enter the year of the car: "))
+color = input("Enter the color of the car: ")
 
-# newcar.update({"Brand" : name, "Model": model, "year" : year, "color": color})
-# print(newcar)
+newcar.update({"Brand" : name, "Model": model, "year" : year, "color": color})
+print(newcar)
 
 
 thisdict = {
