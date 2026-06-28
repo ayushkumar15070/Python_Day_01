@@ -30,3 +30,9 @@ print(x)
 car["color"] = "Blue"
 
 print(x)
+
+print(car.values())
+
+
+if "Brand" in car:
+    print(f"Yes the Brand key is present in the dictionary and it's value is {car['Brand']}")
