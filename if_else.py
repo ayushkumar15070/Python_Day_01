@@ -62,3 +62,10 @@ if num4 > 10 and num5 > 10:
     print("Yes, both the number is greater than 10.")
 else:
     print("No, either one or two number is smaller than 10.")
+
+
+age = 25
+have_licence = True
+
+if age >= 18 and have_licence:
+    print("Yes, you can drive")
