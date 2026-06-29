@@ -54,3 +54,11 @@ print(f"{num1} is greater than {num2}") if num1 > num2 else print(f"{num2} is gr
 
 num3 = num1 if num1 > num2 else num2
 print(num3)
+
+
+num4 = 23
+num5 = 45
+if num4 > 10 and num5 > 10:
+    print("Yes, both the number is greater than 10.")
+else:
+    print("No, either one or two number is smaller than 10.")
