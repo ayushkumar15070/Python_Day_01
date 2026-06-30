@@ -15,3 +15,10 @@ while j < 10:
         continue
     print(j)
     
+
+k = 0
+while k < 10:
+    print(k)
+    k += 1
+else:
+    print("The condition become false.")
