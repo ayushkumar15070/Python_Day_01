@@ -23,4 +23,11 @@ if(mname == ""):
 else:
     sentence = greetings(fname, lname, mname)
     print(sentence)
+
+
+def my_function(animal, name):
+    print("I have a", animal)
+    print("I have a", animal, "and i am ", name)
+
+my_function(animal = "Dog", name = "Ayush")
     
