@@ -30,4 +30,12 @@ def my_function(animal, name):
     print("I have a", animal, "and i am ", name)
 
 my_function(animal = "Dog", name = "Ayush")
+
+myfruits = ["Apple", "Banana", "Cherry"]
+
+def my_fruits(fruits):
+    for i in fruits:
+        print(i)
+
+my_fruits(myfruits)
     
