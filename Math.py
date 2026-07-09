@@ -13,3 +13,12 @@ z = 6
 s = 8
 
 print(pow(z, s))
+
+
+import math
+
+x = math.pi
+print(x)
+
+y = math.sqrt(49)
+print(y)
