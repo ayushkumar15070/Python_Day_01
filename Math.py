@@ -7,3 +7,9 @@ print(y)
 x = abs(-7.25)
 
 print(x)
+
+
+z = 6
+s = 8
+
+print(pow(z, s))
