@@ -22,3 +22,9 @@ print(x)
 
 y = math.sqrt(49)
 print(y)
+
+
+z = math.ceil(1.23)
+d = math.floor(1.2333)
+print(z)
+print(d)
