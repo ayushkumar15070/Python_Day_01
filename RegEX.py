@@ -12,3 +12,7 @@ print(x)
 
 
 print(x)
+
+
+z = re.split("\s", txt, 1)
+print(z)
